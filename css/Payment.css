@@ -1,0 +1,204 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    color: #FA804C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E04D28;
+}
+
+/* Header */
+header {
+    padding-top: 80px;
+  }
+  
+  .top-banner {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    height: 60px;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    color: #333;
+  }
+  
+  .nav-link:hover {
+    color: #FA804C;
+  }
+
+/* Main Content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 1.1rem;
+}
+
+.nike-btn {
+    background-color: #FA804C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.nike-btn:hover {
+    background-color: #E04D28;
+}
+
+/* Footer */
+#contact {
+    background-color: #FFFFFF;
+    color: #6C757D;
+  }
+  
+  .footer a {
+    color: #6C757D;
+  }
+  
+  #contact ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  #contact li {
+    margin-right: 10px;
+  }
+  
+  .payment-methods {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .payment-methods h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .payment-methods ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .payment-methods li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .payment-methods li i {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  .payment-methods li i.fa-cc-visa { color: #1a237e; }
+  .payment-methods li i.fa-cc-mastercard { color: #1976d2; }
+  .payment-methods li i.fa-cc-paypal { color: #003087; }
+  .payment-methods li i.fa-cc-amazon-pay { color: #ff9900; }
+  .payment-methods li i.fa-cc-apple-pay { color: #000; }
+  .payment-methods li i.fa-cc-amex { color: #117ac9; }
+
+/* Payment Page Specific Styles */
+#payment-form {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.payment-options {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.or {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.login-btn-google,
+.login-btn-facebook {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.login-btn-google {
+    background-color: #dd4b39;
+}
+
+.login-btn-facebook {
+    background-color: #3b5998;
+}
+
+.login-btn-google:hover,
+.login-btn-facebook:hover {
+    background-color: #C0321D;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin: 10px 0;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .section-heading {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .nike-btn {
+        padding: 8px 16px;
+    }
+}

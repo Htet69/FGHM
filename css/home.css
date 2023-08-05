@@ -1,0 +1,220 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  padding-top: 80px;
+}
+
+.top-banner {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #FA804C;
+}
+
+#navbarSupportedContent form {
+  margin-right: 10px;
+}
+/* Banner */
+.banner {
+  background-color: #F5F5F5;
+  padding: 30px 0;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.banner .nike-btn {
+  background-color: #FA804C;
+  color: #fff;
+}
+
+/* Product Cards */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.card-title, .card-text {
+  text-align: center;
+}
+
+.card .nike-btn {
+  background-color: #FA804C;
+  color: #fff;
+  width: 50%;
+  display: block;
+}
+
+/* About Us Section */
+#about-us {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.about-us-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-content {
+  margin-top: 40px;
+}
+
+.about-us-content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.about-us-content h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #FA804C;
+  margin-bottom: 15px;
+}
+
+.about-us-content p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.about-us-image img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-us-image img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+#contact {
+  background-color: #FFFFFF;
+  color: #6C757D;
+}
+
+.footer a {
+  color: #6C757D;
+}
+
+#contact ul {
+  display: flex;
+  align-items: center;
+}
+
+#contact li {
+  margin-right: 10px;
+}
+
+.payment-methods {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.payment-methods h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.payment-methods ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-methods li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.payment-methods li i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.payment-methods li i.fa-cc-visa { color: #1a237e; }
+.payment-methods li i.fa-cc-mastercard { color: #1976d2; }
+.payment-methods li i.fa-cc-paypal { color: #003087; }
+.payment-methods li i.fa-cc-amazon-pay { color: #ff9900; }
+.payment-methods li i.fa-cc-apple-pay { color: #000; }
+.payment-methods li i.fa-cc-amex { color: #117ac9; }
+
+@media (max-width: 767px) {
+  .navbar-brand img {
+    max-width: 200px;
+  }
+
+  .nav-menu .nav-link {
+    margin-left: 1rem;
+  }
+}

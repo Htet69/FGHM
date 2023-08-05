@@ -1,0 +1,176 @@
+/* Product Detail Page Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+}
+
+.top-banner {
+    background-color: #f6f6f6;
+    padding: 0px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.top-banner .navbar-brand h1 {
+    color: #000000;
+}
+
+.product-detail {
+    padding: 50px 0;
+  }
+  
+  .img-full-size img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    color: #FA804C;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FA804C;
+  }
+  
+  .description {
+    line-height: 1.6;
+  }
+  
+  .details {
+    margin-top: 20px;
+  }
+  
+  .details label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .size-select select {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none; /* Remove default arrow icon on some browsers */
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23333' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M19.8 8.3c-.4 0-.7.1-1 .4L12 15.4l-6.8-6.8c-.6-.6-1.6-.6-2.2 0-.6.6-.6 1.6 0 2.2l8 8c.6.6 1.6.6 2.2 0l8-8c.6-.6.6-1.6 0-2.2-.3-.3-.6-.4-1-.4z'/%3E%3C/svg%3E"); /* Custom arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px 12px;
+  }
+
+  .size-select select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(250, 128, 76, 0.5);
+  }
+
+  quantity-select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .quantity-select label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .quantity-select input[type="number"] {
+    width: 60px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .color-select {
+    margin-top: 20px;
+  }
+  
+  .color-select label {
+    margin-right: 10px;
+  }
+  
+  .add-to-cart-btn {
+    margin-top: 20px;
+    background-color: #FA804C;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #E35B25;
+  }
+  
+  /* Footer Styles */
+  #contact {
+    background-color: #FFFFFF;
+    color: #6C757D;
+  }
+  
+  .footer a {
+    color: #6C757D;
+  }
+  
+  #contact ul {
+    display: flex;
+    align-items: center;
+}
+
+#contact li {
+    margin-right: 10px;
+}
+.payment-methods {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.payment-methods h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.payment-methods ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-methods li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.payment-methods li i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.payment-methods li i.fa-cc-visa { color: #1a237e; }
+.payment-methods li i.fa-cc-mastercard { color: #1976d2; }
+.payment-methods li i.fa-cc-paypal { color: #003087; }
+.payment-methods li i.fa-cc-amazon-pay { color: #ff9900; }
+.payment-methods li i.fa-cc-apple-pay { color: #000; }
+.payment-methods li i.fa-cc-amex { color: #117ac9; }
+
+  @media (max-width: 767px) {
+    .navbar-brand img {
+      max-width: 200px;
+    }
+  
+    .nav-menu .nav-link {
+      margin-left: 1rem;
+    }
+  }

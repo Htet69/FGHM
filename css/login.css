@@ -1,0 +1,258 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .card-text {
+    color: #777;
+  }
+  
+  .btn.nike-btn {
+    background-color: #FA804C;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn.nike-btn:hover {
+    background-color: #FF6347;
+  }
+  
+  .top-banner {
+    background-color: #FA804C;
+    height: 100px;
+  }
+  
+  /* Nav Menu Styles */
+  header {
+    padding-top: 80px;
+  }
+  
+  .top-banner {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    height: 60px;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    color: #333;
+  }
+  
+  .nav-link:hover {
+    color: #FA804C;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .footer-links a:hover {
+    color: #FA804C;
+  }
+  
+  .footer-social {
+    font-size: 1.5rem;
+  }
+  
+  #contact ul {
+    display: flex;
+    align-items: center;
+}
+
+#contact li {
+    margin-right: 10px;
+}
+
+.payment-methods {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.payment-methods h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.payment-methods ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-methods li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.payment-methods li i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.payment-methods li i.fa-cc-visa { color: #1a237e; }
+.payment-methods li i.fa-cc-mastercard { color: #1976d2; }
+.payment-methods li i.fa-cc-paypal { color: #003087; }
+.payment-methods li i.fa-cc-amazon-pay { color: #ff9900; }
+.payment-methods li i.fa-cc-apple-pay { color: #000; }
+.payment-methods li i.fa-cc-amex { color: #117ac9; }
+  
+  main {
+    padding-top: 100px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .navbar-brand img {
+      max-width: 200px;
+    }
+  
+    .nav-menu .nav-link {
+      margin-left: 1rem;
+    }
+  }
+  
+  /* Login Page Styles */
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #FA804C;
+    margin-bottom: 20px;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login-form .login-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #FA804C;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .login-form .login-btn:hover {
+    background-color: #FF6347;
+  }
+  
+  .login-options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.or {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login-btn-google,
+.login-btn-facebook {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #DB4437;
+    transition: background-color 0.3s, transform 0.2s ease, color 0.3s;
+    transform-origin: center;
+}
+
+.login-btn-facebook {
+    background-color: #3B5998;
+}
+
+.login-btn-google:hover,
+.login-btn-facebook:hover {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+  
