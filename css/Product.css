@@ -78,6 +78,9 @@ header {
 .nav-link:hover {
   color: #FA804C;
 }
+.navbar-collapse.show {
+  background-color: #fff;
+}
 
 /* Footer styles */
 footer {
@@ -114,26 +117,29 @@ footer {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
+  text-align: center;
 }
 
 .payment-methods h3 {
   color: #333;
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .payment-methods ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .payment-methods li {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
-  font-size: 16px;
   color: #555;
+  font-size: 1.2rem;
+  margin: 0.5rem;
 }
 
 .payment-methods li i {
@@ -147,10 +153,6 @@ footer {
 .payment-methods li i.fa-cc-amazon-pay { color: #ff9900; }
 .payment-methods li i.fa-cc-apple-pay { color: #000; }
 .payment-methods li i.fa-cc-amex { color: #117ac9; }
-
-main {
-  padding-top: 100px;
-}
 
 /* Product Images */
 .product-img {
@@ -167,5 +169,14 @@ main {
   .nav-menu .nav-link {
     margin-left: 1rem;
   }
-}
-  
+
+@media (max-width: 768px) {
+  .payment-methods h3 {
+    font-size: 1.3rem;
+  }
+
+  .payment-methods li {
+    font-size: 1rem;
+    flex-basis: 50%;
+  }
+}}
