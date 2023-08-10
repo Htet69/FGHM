@@ -47,6 +47,9 @@ body {
     background-color: #FA804C;
     height: 100px;
   }
+a{
+  text-decoration: none;
+}
   
   /* Nav Menu Styles */
   header {
@@ -203,8 +206,12 @@ body {
     transition: background-color 0.3s ease-in-out;
     border: none;
     padding: 0.8rem 2rem;
+    text-decoration: none;
 }
-  
+
+#loginBtn{
+  text-decoration: none;
+}
   
   .login-form .login-btn:hover {
     background-color: #FF6347;
